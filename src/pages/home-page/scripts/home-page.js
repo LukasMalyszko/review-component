@@ -1,13 +1,4 @@
 import "../styles/home-page.scss";
-/// opóźnia pojawienie się komponentu
-///
-const reviewComponent = document.querySelector(".review-component");
-reviewComponent.remove();
-
-const homePage = document.getElementById("home-page");
-setTimeout(() => {
-  homePage.appendChild(reviewComponent);
-}, 3000);
 
 /// wyświetla modal
 ///
@@ -69,3 +60,13 @@ function selectReview() {
 }
 
 selectReview();
+
+/// opóźnia pojawienie się komponentu
+///
+const reviewComponent = document.querySelector(".review-component");
+reviewComponent.remove();
+
+const homePage = document.getElementById("home-page");
+setTimeout(() => {
+  homePage.appendChild(reviewComponent);
+}, 3000);
