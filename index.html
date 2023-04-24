@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Review modal</title>
+  </head>
+
+  <body>
+    <div id="home-page">
+      <div class="review-component">
+        <div class="review-component__head">
+          <div class="review-component__head-top">
+            <div class="review-component__head-star">
+              <img src="/star.svg" class="star" />
+            </div>
+            <button
+              type="button"
+              class="close review-component__head-x"
+              data-dismiss="modal"
+              aria-label="close"
+            >
+              <span aria-hidden="true">×</span>
+            </button>
+          </div>
+          <h4 class="review-component__head-title">
+            How do you feel about using our product?
+          </h4>
+        </div>
+        <div class="review-component__review-scale">
+          <div class="review-component__numbers">
+            <div
+              data-active="0"
+              data-review="1"
+              class="review-component__number"
+            >
+              1
+            </div>
+            <div
+              data-active="0"
+              data-review="2"
+              class="review-component__number"
+            >
+              2
+            </div>
+            <div
+              data-active="0"
+              data-review="3"
+              class="review-component__number"
+            >
+              3
+            </div>
+            <div
+              data-active="0"
+              data-review="4"
+              class="review-component__number"
+            >
+              4
+            </div>
+            <div
+              data-active="0"
+              data-review="5"
+              class="review-component__number"
+            >
+              5
+            </div>
+          </div>
+          <div class="review-component__description">
+            <div class="review-component__description-text">
+              Extremly dissatisfied
+            </div>
+            <div class="review-component__description-text right">
+              Extremly satisfied
+            </div>
+          </div>
+          <div class="review-component__footer">
+            <button disabled class="js-dynamic-modal-toggle review-component__button">
+              Next step
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="/src/pages/home-page/scripts/modal.js"></script>
+    <script type="module" src="/src/global-scripts/main.js"></script>
+    <script
+      type="module"
+      src="/src/pages/home-page/scripts/home-page.js"
+    ></script>
+  </body>
+</html>
