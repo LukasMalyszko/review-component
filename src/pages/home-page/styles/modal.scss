@@ -1,128 +1,128 @@
-.modal-open .modal {
-  overflow-x: hidden;
-  overflow-y: auto;
-}
-
-.modal {
-    width: 100%;
-}
-// .fade .in{
-//     opacity: 1;
+// .modal-open .modal {
+//   overflow-x: hidden;
+//   overflow-y: auto;
 // }
 
-// .fade {
+// .modal {
+//     width: 100%;
+// }
+// // .fade .in{
+// //     opacity: 1;
+// // }
+
+// // .fade {
+// //     opacity: .5;
+// // }
+
+// .modal-backdrop {
+//   opacity: 0.5;
+// }
+
+// .modal-dialog {
+//   display: flex;
+//   justify-content: center;
+//   position: relative;
+//   width: auto;
+//   margin: 30px;
+// }
+
+// .modal {
+//   position: fixed;
+//   top: 0;
+//   right: 0;
+//   bottom: 0;
+//   left: 0;
+//   z-index: 1050;
+//   display: none;
+//   overflow: hidden;
+//   -webkit-overflow-scrolling: touch;
+//   outline: 0;
+// }
+
+// .modal-content {
+// padding: 16px;
+//   position: relative;
+//   background-color: #fff;
+//   -webkit-background-clip: padding-box;
+//   background-clip: padding-box;
+//   border-radius: 12px;
+//   outline: 0;
+//   -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+//   box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+// }
+
+// .modal-header {
+//   display: flex;
+//   justify-content: space-between;
+//   padding: 10px 0 0;
+// }
+// .modal-title {
+//   margin: 0;
+//   line-height: 1.4;
+// }
+
+// .close {
+//   cursor: pointer;
+//   background-color: inherit;
+//   font-size: 24px;
+//   font-weight: 700;
+//   line-height: 1;
+//   color: #000;
+//   text-shadow: 0 1px 0 #fff;
+//   opacity: 0.2;
+//   border: none;
+//   margin-top: -10px;
+//   transition: .2s;
+// }
+
+// .close:hover {
 //     opacity: .5;
 // }
 
-.modal-backdrop {
-  opacity: 0.5;
-}
+// .close:active {
+//     opacity: 1;
+// }
 
-.modal-dialog {
-  display: flex;
-  justify-content: center;
-  position: relative;
-  width: auto;
-  margin: 30px;
-}
+// .modal-body {
+//     padding: 10px 0;
+// }
 
-.modal {
-  position: fixed;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  z-index: 1050;
-  display: none;
-  overflow: hidden;
-  -webkit-overflow-scrolling: touch;
-  outline: 0;
-}
+// .modal-footer {
+//   text-align: right;
+// }
 
-.modal-content {
-padding: 16px;
-  position: relative;
-  background-color: #fff;
-  -webkit-background-clip: padding-box;
-  background-clip: padding-box;
-  border-radius: 12px;
-  outline: 0;
-  -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
-  box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
-}
+// .btn {
+//   display: inline-block;
+//   padding: 6px 12px;
+//   font-size: 14px;
+//   font-weight: 400;
+//   line-height: 1.5;
+//   text-align: center;
+//   cursor: pointer;
+//   border: 1px solid transparent;
+//   border-radius: 4px;
+// }
 
-.modal-header {
-  display: flex;
-  justify-content: space-between;
-  padding: 10px 0 0;
-}
-.modal-title {
-  margin: 0;
-  line-height: 1.4;
-}
+// .btn-default {
+//   color: var(--black-color);
+//   background-color: var(--color-white);
+//   border-color: var(--gray-five);
+//   transition: .2s;
+//   opacity: .5;
+// }
 
-.close {
-  cursor: pointer;
-  background-color: inherit;
-  font-size: 24px;
-  font-weight: 700;
-  line-height: 1;
-  color: #000;
-  text-shadow: 0 1px 0 #fff;
-  opacity: 0.2;
-  border: none;
-  margin-top: -10px;
-  transition: .2s;
-}
+// .btn-primary {
+//   color: var(--color-white);
+//   background-color: var(--blue-main);
+//   margin-left: 5px;
+//   transition: .2s;
+//   opacity: .5;
+// }
 
-.close:hover {
-    opacity: .5;
-}
+// .btn-default:hover ,.btn-primary:hover {
+//     opacity: .7;
+// }
 
-.close:active {
-    opacity: 1;
-}
-
-.modal-body {
-    padding: 10px 0;
-}
-
-.modal-footer {
-  text-align: right;
-}
-
-.btn {
-  display: inline-block;
-  padding: 6px 12px;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 1.5;
-  text-align: center;
-  cursor: pointer;
-  border: 1px solid transparent;
-  border-radius: 4px;
-}
-
-.btn-default {
-  color: var(--black-color);
-  background-color: var(--color-white);
-  border-color: var(--gray-five);
-  transition: .2s;
-  opacity: .5;
-}
-
-.btn-primary {
-  color: var(--color-white);
-  background-color: var(--blue-main);
-  margin-left: 5px;
-  transition: .2s;
-  opacity: .5;
-}
-
-.btn-default:hover ,.btn-primary:hover {
-    opacity: .7;
-}
-
-.btn-default:active ,.btn-primary:active {
-    opacity: 1;
-}
+// .btn-default:active ,.btn-primary:active {
+//     opacity: 1;
+// }
