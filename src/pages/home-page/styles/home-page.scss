@@ -15,6 +15,12 @@ body {
   color: var(--black-color);
   padding: 24px;
   border-radius: 18px;
+  box-shadow: none;
+
+  & &__head {
+    display: flex;
+    flex-direction: column;
+  }
 
   & &__head-top {
     display: flex;

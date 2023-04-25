@@ -9,81 +9,87 @@
 
   <body>
     <div id="home-page">
-      <div class="review-component">
-        <div class="review-component__head">
-          <div class="review-component__head-top">
-            <div class="review-component__head-star">
-              <img src="/star.svg" class="star" />
+      <div id="static-modal" class="modal fade" tabindex="-1" role="dialog">
+        <div class="modal-dialog">
+          <div class="review-component modal-content">
+          <div class="">
+              <div class="review-component__head modal-header">
+                <div class="review-component__head-top">
+                  <div class="review-component__head-star">
+                    <img src="/star.svg" class="star" />
+                  </div>
+                  <button
+                    type="button"
+                    class="review-component__head-x close"
+                    data-dismiss="modal"
+                    aria-label="close"
+                  >
+                    <span aria-hidden="true">×</span>
+                  </button>
+                </div>
+                <h4 class="review-component__head-title">
+                  How do you feel about using our product?
+                </h4>
+              </div>
+              <div class="review-component__review-scale modal-body">
+                <div class="review-component__numbers">
+                  <div
+                    data-active="0"
+                    data-review="1"
+                    class="review-component__number"
+                  >
+                    1
+                  </div>
+                  <div
+                    data-active="0"
+                    data-review="2"
+                    class="review-component__number"
+                  >
+                    2
+                  </div>
+                  <div
+                    data-active="0"
+                    data-review="3"
+                    class="review-component__number"
+                  >
+                    3
+                  </div>
+                  <div
+                    data-active="0"
+                    data-review="4"
+                    class="review-component__number"
+                  >
+                    4
+                  </div>
+                  <div
+                    data-active="0"
+                    data-review="5"
+                    class="review-component__number"
+                  >
+                    5
+                  </div>
+                </div>
+                <div class="review-component__description">
+                  <div class="review-component__description-text">
+                    Extremly dissatisfied
+                  </div>
+                  <div class="review-component__description-text right">
+                    Extremly satisfied
+                  </div>
+                </div>
+                <div class="review-component__footer modal-footer">
+                  <button disabled class="review-component__button js-dynamic-modal-toggle">
+                    Next step
+                  </button>
+                </div>
+              </div>
             </div>
-            <button
-              type="button"
-              class="close review-component__head-x"
-              data-dismiss="modal"
-              aria-label="close"
-            >
-              <span aria-hidden="true">×</span>
-            </button>
-          </div>
-          <h4 class="review-component__head-title">
-            How do you feel about using our product?
-          </h4>
-        </div>
-        <div class="review-component__review-scale">
-          <div class="review-component__numbers">
-            <div
-              data-active="0"
-              data-review="1"
-              class="review-component__number"
-            >
-              1
-            </div>
-            <div
-              data-active="0"
-              data-review="2"
-              class="review-component__number"
-            >
-              2
-            </div>
-            <div
-              data-active="0"
-              data-review="3"
-              class="review-component__number"
-            >
-              3
-            </div>
-            <div
-              data-active="0"
-              data-review="4"
-              class="review-component__number"
-            >
-              4
-            </div>
-            <div
-              data-active="0"
-              data-review="5"
-              class="review-component__number"
-            >
-              5
-            </div>
-          </div>
-          <div class="review-component__description">
-            <div class="review-component__description-text">
-              Extremly dissatisfied
-            </div>
-            <div class="review-component__description-text right">
-              Extremly satisfied
-            </div>
-          </div>
-          <div class="review-component__footer">
-            <button disabled class="js-dynamic-modal-toggle review-component__button">
-              Next step
-            </button>
           </div>
         </div>
       </div>
     </div>
 
-    <script src="/public/modal.js"></script>
+    <script src="/modal.js"></script>
     <script type="module" src="/src/global-scripts/main.js"></script>
     <script
       type="module"

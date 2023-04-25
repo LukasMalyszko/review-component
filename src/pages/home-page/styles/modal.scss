@@ -3,6 +3,9 @@
   overflow-y: auto;
 }
 
+.modal {
+    width: 100%;
+}
 // .fade .in{
 //     opacity: 1;
 // }
@@ -20,7 +23,7 @@
   justify-content: center;
   position: relative;
   width: auto;
-  margin: 10px;
+  margin: 30px;
 }
 
 .modal {
@@ -37,15 +40,12 @@
 }
 
 .modal-content {
-  max-width: 500px;
-  width: 100%;
+padding: 16px;
   position: relative;
   background-color: #fff;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  border: 1px solid #999;
-  border: 1px solid rgba(0, 0, 0, 0.2);
-  border-radius: 6px;
+  border-radius: 12px;
   outline: 0;
   -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
   box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
@@ -54,68 +54,75 @@
 .modal-header {
   display: flex;
   justify-content: space-between;
-  padding: 15px;
-  border-bottom: 1px solid #e5e5e5;
+  padding: 10px 0 0;
 }
 .modal-title {
   margin: 0;
-  line-height: 1.42857143;
+  line-height: 1.4;
 }
 
 .close {
   cursor: pointer;
   background-color: inherit;
-  font-size: 21px;
+  font-size: 24px;
   font-weight: 700;
   line-height: 1;
   color: #000;
   text-shadow: 0 1px 0 #fff;
   opacity: 0.2;
   border: none;
+  margin-top: -10px;
+  transition: .2s;
+}
+
+.close:hover {
+    opacity: .5;
+}
+
+.close:active {
+    opacity: 1;
 }
 
 .modal-body {
-  position: relative;
-  padding: 15px;
+    padding: 10px 0;
 }
 
 .modal-footer {
-  padding: 15px;
   text-align: right;
-  border-top: 1px solid #e5e5e5;
 }
 
 .btn {
   display: inline-block;
   padding: 6px 12px;
-  margin-bottom: 0;
   font-size: 14px;
   font-weight: 400;
-  line-height: 1.42857143;
+  line-height: 1.5;
   text-align: center;
-  white-space: nowrap;
-  vertical-align: middle;
-  -ms-touch-action: manipulation;
-  touch-action: manipulation;
   cursor: pointer;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-  background-image: none;
   border: 1px solid transparent;
   border-radius: 4px;
 }
 
 .btn-default {
-  color: #333;
-  background-color: #fff;
-  border-color: #ccc;
+  color: var(--black-color);
+  background-color: var(--color-white);
+  border-color: var(--gray-five);
+  transition: .2s;
+  opacity: .5;
 }
 
 .btn-primary {
-  color: #fff;
-  background-color: #337ab7;
-  border-color: #2e6da4;
+  color: var(--color-white);
+  background-color: var(--blue-main);
   margin-left: 5px;
+  transition: .2s;
+  opacity: .5;
+}
+
+.btn-default:hover ,.btn-primary:hover {
+    opacity: .7;
+}
+
+.btn-default:active ,.btn-primary:active {
+    opacity: 1;
 }
